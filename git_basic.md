@@ -65,3 +65,36 @@ git push origin master
 #커밋된 파일을 오리진마스터(깃허브?)에 push하겠다(업로드 하겠다)
 ```
 
+
+
+### 저장을 실제로 한다면
+
+![image-20210715174854465](git_basic.assets/image-20210715174854465.png)
+
+git bash를 TIL 폴더에서 여는게 먼저
+
+```bash 
+git add git_basic.md
+#추가됨 별다른 설명 없음
+```
+
+```bash
+git status
+#아래 사진처럼 현재 status에서 새로운 파일이 있는지에 대한 내용이 나온다.
+```
+
+![image-20210715174543055](git_basic.assets/image-20210715174543055.png)
+
+```bash
+git commit -m "add git_basic.md"
+#커밋에 성공함
+```
+
+![image-20210715174701482](git_basic.assets/image-20210715174701482.png)
+
+```bash
+git push origin master
+#올라가짐, 빵끗
+```
+
+![image-20210715174734572](git_basic.assets/image-20210715174734572.png)
