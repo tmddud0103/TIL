@@ -12,6 +12,7 @@
 
 ```bash
 pwd
+#현재 위치
 ```
 
 
@@ -24,7 +25,9 @@ pwd
 
 ```bash
 ls
+#폴더 리스트 보기
 ls -a
+#폴더 리스트 숨김폴더포함 보기
 ```
 
 
@@ -36,7 +39,9 @@ ls -a
 
 ```bash
 cd <folder name>
+#<folder name> 이동
 cd ..
+#뒤로 가기
 ```
 
 
@@ -49,6 +54,7 @@ cd ..
 
 ```bash
 mkdir <floder name>
+#폴더 생성
 ```
 
 
@@ -59,6 +65,7 @@ mkdir <floder name>
 
 ```bash
 touch <flie name>
+#파일 생성
 ```
 
 
@@ -74,8 +81,11 @@ touch <flie name>
 
 ```bash
 rm <filemane>
+#파일 삭제
 rm -r <folder name>
+#폴더 삭제
 rm -rf <folder name>
+#폴더 강제 삭제
 ```
 
 
