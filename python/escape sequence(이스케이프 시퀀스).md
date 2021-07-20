@@ -1,0 +1,7 @@
+# 이스케이프 시퀀스(escape sequence)
+
+문자열 내에서 특정 문자나 조작을 위해서 **역슬래시(\\)**를 활용하여 구분
+
+![image-20210719101757506](C:\Users\tmddu\TIL\python\1.data_type.assets\image-20210719101757506.png)
+
+### 

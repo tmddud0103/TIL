@@ -1,45 +1,4 @@
-# Python Basic
-
-## Python 개발 환경
-
-![image-20210719133151683](0.Python_basic.assets/image-20210719133151683.png)
-
-![image-20210719133205356](0.Python_basic.assets/image-20210719133205356.png)
-
-### 코드 스타일 가이드
-
-- 코드를 '어떻게 작성할지'에 대한 가이드 라인
-
-PEP 8 - style guide for Python Code = 파이썬에서 제안하는 스타일 가이드
-
-https://www.python.org/dev/peps/pep-0008/
-
-
-
-### 주석
-
-``` bash
-#주석
-"""
-주석
-주석
-주석
-"""
-
-'''
-얘도 주석
-'''
-
-def foo():
-	"""함수나 기능을 설명합니다"""
-#덕스트링의 특수한 형태의 주석
-```
-
-vs 코드 전체 주석 처리 : ctrl + /
-
-
-
-## 변수와 식별자
+# 변수, 식별자 (Identifiers)
 
 ### 변수
 
@@ -82,13 +41,13 @@ x, y = 3, 4
 > x =10, y = 20 일 때 각각의 값을 바꿔서 저장하는 코드?
 
  ``` bash
- #임시 변수 활용
- x =10, y = 20
- tmp =x
- x = y
- y = tmp
- print(x,y)
- # 20 10
+#임시 변수 활용
+x =10, y = 20
+tmp =x
+x = y
+y = tmp
+print(x,y)
+# 20 10
  ```
 
 ``` bash
@@ -110,7 +69,7 @@ print(x, y)
   - 길이제한 없음
   - 대소문자를 구별한다
   - 다음의 키워드는 예약어(reserved words)로 사용할 수가 없음
-  ![image-20210719094214969](Python_Basic.assets/image-20210719094214969.png)
+    ![image-20210719094214969](C:\Users\tmddu\TIL\python\Python_Basic.assets\image-20210719094214969.png)
 
 ``` bash
 #키워드/ 예약어
@@ -119,9 +78,9 @@ print(keyword.kwlist)
 #위의 예약어 리스트가 나옴
 ```
 
-![image-20210719094354623](0.Python_basic.assets/image-20210719094354623.png)
+![image-20210719094354623](C:\Users\tmddu\TIL\python\0.Python_basic.assets\image-20210719094354623.png)
 
 - 내장함수나 모듈 등의 이름으로도 만들면 안됨
 
-![image-20210719094443494](0.Python_basic.assets/image-20210719094443494.png)
+![image-20210719094443494](C:\Users\tmddu\TIL\python\0.Python_basic.assets\image-20210719094443494.png)
 

@@ -94,12 +94,6 @@ math.isclose(a,b)
 
 
 
-### 이스케이프 시퀀스(escape sequence)
-
-- 문자열 내에서 특정 문자나 조작을 위해서 **역슬래시(\\)**를 활용하여 구분
-
-![image-20210719101757506](1.data_type.assets/image-20210719101757506.png)
-
 ### String Interpolation
 
 - 변수의 값을 문자열의 **자리 표시자(placeholder)**로 대체하는 방법(과정)
