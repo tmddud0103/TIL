@@ -1,0 +1,12 @@
+# keys, values, items 딕셔너리 순회
+
+- 기본적으로 key를 순회하며, key를 통해 값을 활용
+
+![image-20210726111352747](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726111352747.png)
+
+- 추가 메서드를 활용하여 순회할 수 있음
+
+![image-20210726111422443](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726111422443.png)
+
+![image-20210726111439754](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726111439754.png)
+

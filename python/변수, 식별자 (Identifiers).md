@@ -69,7 +69,7 @@ print(x, y)
   - 길이제한 없음
   - 대소문자를 구별한다
   - 다음의 키워드는 예약어(reserved words)로 사용할 수가 없음
-    ![image-20210719094214969](C:\Users\tmddu\TIL\python\Python_Basic.assets\image-20210719094214969.png)
+    ![image-20210719094214969](Python_basic.assets/image-20210719094214969.png)
 
 ``` bash
 #키워드/ 예약어
@@ -78,9 +78,9 @@ print(keyword.kwlist)
 #위의 예약어 리스트가 나옴
 ```
 
-![image-20210719094354623](C:\Users\tmddu\TIL\python\0.Python_basic.assets\image-20210719094354623.png)
+![image-20210719094354623](0.Python_basic.assets\image-20210719094354623.png)
 
 - 내장함수나 모듈 등의 이름으로도 만들면 안됨
 
-![image-20210719094443494](C:\Users\tmddu\TIL\python\0.Python_basic.assets\image-20210719094443494.png)
+![image-20210719094443494](0.Python_basic.assets\image-20210719094443494.png)
 

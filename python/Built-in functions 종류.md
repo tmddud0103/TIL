@@ -1,4 +1,4 @@
-# Built-in functions
+# Built-in functions 종류
 
 ```python
 dir(__builtins__)
