@@ -1,10 +1,12 @@
-# Built-in functions 종류
+# Built-in function 
+
+예시
 
 ```python
-dir(__builtins__)
+ dir(__builtins__)
 ```
 
-```python
+```bash
 ['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning',
  'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError',
  'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning',
@@ -21,4 +23,29 @@ dir(__builtins__)
  'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars',
  'zip']
 ```
+
+
+
+ 
+
+# filter
+
+![image-20210726105104210](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726105104210.png)
+
+# map(function, iterable)
+
+![image-20210726104543446](Built-in Function.assets/image-20210726104543446.png)
+
+- map(function, iterable)
+- 각각의 요소(iterable)가 function에 적용하고 그 결과를 반환
+
+![image-20210726104733883](Built-in Function.assets/image-20210726104733883.png)
+
+# zip(*iterables)
+
+![image-20210726105245090](Built-in Function.assets/image-20210726105245090.png)
+
+갯수가 안맞을 경우에는...?
+
+확인 해 볼것!
 

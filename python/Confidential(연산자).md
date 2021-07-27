@@ -1,4 +1,4 @@
-# 연산자(Confidential)
+# Confidential (연산자)
 
 - 기본적인 사칙연산, 수식 계산
 
