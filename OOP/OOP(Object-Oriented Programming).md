@@ -1,0 +1,68 @@
+# OOP(Object-Oriented Programming)
+
+![image-20210728111713540](Object(객체).assets/image-20210728111713540.png)
+
+![image-20210728111900311](Object(객체).assets/image-20210728111900311.png)
+
+## 객체 지향 프로그래밍
+
+- 컴퓨터 프로그래밍의 패러다임의 하나
+- 컴퓨터 프로그램을 명령어의 목록으로 보는 시각에서 벗어나 여러 개의 독립된 단위, 즉 객체들의 모임으로 파악
+
+![image-20210728111914345](Object(객체).assets/image-20210728111914345.png)
+
+![image-20210728112327636](Object(객체).assets/image-20210728112327636.png)
+
+`jimin`이라는 인스턴스를 만들었다. 이름과 성별이라는 속성
+
+`jimin.greeting()` -> 객체가 메서드를 호출
+
+인사라는 행동을 할 수 있는 사람 클래스
+
+class라는 틀로 개별적인 인스턴스를 만들고 나면, 인스턴스는 class 틀 안에 정의했던 동작들을 각자 다르게 수행할 수 있다
+
+
+
+
+
+![image-20210728112638647](Object(객체).assets/image-20210728112638647.png)
+
+![image-20210728112651777](Object(객체).assets/image-20210728112651777.png)
+
+![image-20210728112702375](Object(객체).assets/image-20210728112702375.png)
+
+그동안의 코딩 방법
+
+
+
+![image-20210728112731053](Object(객체).assets/image-20210728112731053.png)
+
+![image-20210728141801003](OOP(Object-Oriented Programming).assets/image-20210728141801003.png)
+
+![image-20210728134514415](OOP(Object-Oriented Programming).assets/image-20210728134514415.png)
+
+높이 -> 둘레
+
+
+
+![image-20210728134536609](OOP(Object-Oriented Programming).assets/image-20210728134536609.png)
+
+클래스 뒤에 () 붙이는게 좋음
+
+클래스는 대문자로 시작 
+
+![image-20210728142450159](OOP(Object-Oriented Programming).assets/image-20210728142450159.png)
+
+![image-20210728142459417](OOP(Object-Oriented Programming).assets/image-20210728142459417.png)
+
+![image-20210728142513751](OOP(Object-Oriented Programming).assets/image-20210728142513751.png)
+
+더블 언더스코어 == 던더스코어
+
+https://zzsza.github.io/development/2020/07/05/python-magic-method/
+
+
+
+
+
+클래스와 같은 코드가 한 곳에 모인 파이썬 파일을 모듈
