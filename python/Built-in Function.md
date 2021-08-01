@@ -30,20 +30,20 @@
 
 # filter
 
-![image-20210726105104210](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726105104210.png)
+![image-20210726105104210](photo\image-20210726105104210.png)
 
 # map(function, iterable)
 
-![image-20210726104543446](Built-in Function.assets/image-20210726104543446.png)
+![image-20210726104543446](photo/image-20210726104543446.png)
 
 - map(function, iterable)
 - 각각의 요소(iterable)가 function에 적용하고 그 결과를 반환
 
-![image-20210726104733883](Built-in Function.assets/image-20210726104733883.png)
+![image-20210726104733883](photo/image-20210726104733883.png)
 
 # zip(*iterables)
 
-![image-20210726105245090](Built-in Function.assets/image-20210726105245090.png)
+![image-20210726105245090](photo/image-20210726105245090.png)
 
 갯수가 안맞을 경우에는...?
 

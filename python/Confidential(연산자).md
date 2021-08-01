@@ -2,11 +2,11 @@
 
 - 기본적인 사칙연산, 수식 계산
 
-![image-20210719103241994](3.Confidential(연산자).assets/image-20210719103241994.png)
+![image-20210719103241994](photo/image-20210719103241994.png)
 
 > 나눗셈은 항상 결과가 float
 
-![image-20210719103316092](3.Confidential(연산자).assets/image-20210719103316092.png)
+![image-20210719103316092](photo/image-20210719103316092.png)
 
 
 
@@ -14,11 +14,11 @@
 
 - 값을 비교, True/False 값을 리턴함
 
-![image-20210719103359153](3.Confidential(연산자).assets/image-20210719103359153.png)
+![image-20210719103359153](photo/image-20210719103359153.png)
 
 - 특수 상황
 
-![image-20210719103527342](3.Confidential(연산자).assets/image-20210719103527342.png)
+![image-20210719103527342](photo/image-20210719103527342.png)
 
 
 
@@ -36,7 +36,7 @@
 
 - False를 True로, True를 False로
 
-![image-20210719103756531](3.Confidential(연산자).assets/image-20210719103756531.png)
+![image-20210719103756531](photo/image-20210719103756531.png)
 
 ### 논리 연산자 - 단축평가
 
@@ -69,7 +69,7 @@ print(d)
 
 - 연산과 대입이 함께 이루어지는 경우
 
-<img src="3.Confidential(연산자).assets/image-20210719104755401.png" alt="image-20210719104755401" style="zoom: 67%;" />
+<img src="photo/image-20210719104755401.png" alt="image-20210719104755401" style="zoom: 67%;" />
 
 
 
@@ -78,11 +78,11 @@ print(d)
 - +는 숫자가 아닌 자료형에서도 사용 가능함
   - 컨테이너, OOP에서 연산자의 다양한 활동을 확인 
 
-![image-20210719104939085](3.Confidential(연산자).assets/image-20210719104939085.png)
+![image-20210719104939085](photo/image-20210719104939085.png)
 
 ### Containment Test (포함 검사)
 
-<img src="3.Confidential(연산자).assets/image-20210719104949864.png" alt="image-20210719104949864" style="zoom:67%;" />
+<img src="photo/image-20210719104949864.png" alt="image-20210719104949864" style="zoom:67%;" />
 
 ### Identity
 
@@ -117,13 +117,13 @@ x is None
 
 - []를 통해 값을 접근, [:]를 통해 슬라이싱 가능
 
-![image-20210719105336748](3.Confidential(연산자).assets/image-20210719105336748.png)
+![image-20210719105336748](photo/image-20210719105336748.png)
 
 
 
 ### 연산자 우선 순위
 
-![image-20210719105418187](3.Confidential(연산자).assets/image-20210719105418187.png)
+![image-20210719105418187](photo/image-20210719105418187.png)
 
 ```bash
 'apple'[0] in 'ssafy' and -3**3*0 > 4%2
@@ -134,7 +134,7 @@ x is None
 # 따라서 False
 ```
 
-<img src="3.Confidential(연산자).assets/image-20210719105709481.png" alt="image-20210719105709481" style="zoom:67%;" />
+<img src="photo/image-20210719105709481.png" alt="image-20210719105709481" style="zoom:67%;" />
 
 
 
@@ -146,7 +146,7 @@ x is None
 - 하나의 값으로 환원(reduce)될 수 있는 문장
 - 식별자, 값, 연산자로 구성
 
-![image-20210719110749705](3.Confidential(연산자).assets/image-20210719110749705.png)
+![image-20210719110749705](photo/image-20210719110749705.png)
 
 #### 문장(statement)
 
@@ -154,9 +154,9 @@ x is None
 - 모든 표현식(expression)은 문장(statement)
   - 표현식이 아닌 문장이 존재함 예) del 5
 
-<img src="3.Confidential(연산자).assets/image-20210719110916022.png" alt="image-20210719110916022" style="zoom:67%;" />
+<img src="photo/image-20210719110916022.png" alt="image-20210719110916022" style="zoom:67%;" />
 
-<img src="3.Confidential(연산자).assets/image-20210719110927395.png" alt="image-20210719110927395" style="zoom:67%;" />
+<img src="photo/image-20210719110927395.png" alt="image-20210719110927395" style="zoom:67%;" />
 
-<img src="3.Confidential(연산자).assets/image-20210719110946692.png" alt="image-20210719110946692" style="zoom:67%;" />
+<img src="photo/image-20210719110946692.png" alt="image-20210719110946692" style="zoom:67%;" />
 

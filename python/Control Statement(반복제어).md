@@ -21,7 +21,7 @@
 - 끝까지 반복문을 실행한 이후에 else문 실행
   - break를 통해 중간에 종료되는 경우 else 문은 실행되지 않음
 
-![image-20210719155008610](C:\Users\tmddu\TIL\python\5.Control Statement(제어문).assets\image-20210719155008610.png)
+![image-20210719155008610](break, continue, for-else (반복제어).assets/image-20210719155008610.png)
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-![image-20210719155101073](C:\Users\tmddu\TIL\python\5.Control Statement(제어문).assets\image-20210719155101073.png)
+![image-20210719155101073](break, continue, for-else (반복제어).assets/image-20210719155101073.png)
 
 **-> pass와 continue의 차이**
 
