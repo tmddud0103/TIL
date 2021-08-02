@@ -1,0 +1,52 @@
+# HTML 기본구조
+
+![image-20210802092314190](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210802092314190.png)
+
+![image-20210802092350459](photo/image-20210802092350459.png)
+
+![image-20210802092409791](photo/image-20210802092409791.png)
+
+## og : Open Graph Protocol
+
+![image-20210802092624849](photo/image-20210802092624849.png)
+
+## DOM(Document Object Model) 트리
+
+![image-20210802092748114](photo/image-20210802092748114.png)
+
+![image-20210802092901601](photo/image-20210802092901601.png)
+
+들여쓰기 : 2spaces 권장
+
+
+
+## 요소(element)
+
+### 태그
+
+![image-20210802093244979](photo/image-20210802093244979.png)
+
+![image-20210802093327199](photo/image-20210802093327199.png)
+
+## 속성(attribute)
+
+![image-20210802093652507](photo/image-20210802093652507.png)
+
+![image-20210802093703173](photo/image-20210802093703173.png)
+
+![image-20210802093713909](photo/image-20210802093713909.png)
+
+![image-20210802093728300](photo/image-20210802093728300.png)
+
+![image-20210802131401816](photo/image-20210802131401816.png)
+
+![image-20210802100159868](photo/image-20210802100159868.png)
+
+![image-20210802100736673](photo/image-20210802100736673.png)
+
+![image-20210802101323289](photo/image-20210802101323289.png)
+
+![image-20210802101550780](photo/image-20210802101550780.png)
+
+
+

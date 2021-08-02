@@ -1,0 +1,10 @@
+## CSS_Selectors_Combinators(결합자)
+
+![image-20210802165100236](photo\image-20210802165100236.png)
+
+![image-20210802165109871](photo\image-20210802165109871.png)
+
+![image-20210802165132904](photo\image-20210802165132904.png)
+
+![image-20210802165141502](photo\image-20210802165141502.png)
+
