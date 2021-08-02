@@ -12,7 +12,7 @@
 
 - False를 True로, True를 False로
 
-![image-20210719103756531](3.Confidential(연산자).assets/image-20210719103756531.png)
+![image-20210719103756531](photo/image-20210719103756531.png)
 
 ### 논리 연산자 - 단축평가
 

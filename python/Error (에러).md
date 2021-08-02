@@ -10,7 +10,7 @@
 
 - `parser` 는 줄에서 에러가 감지된 가장 앞의 위치를 가리키는 캐럿(caret)기호(`^`)를 표시합니다.
 
-![image-20210722223108532](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210722223108532.png)
+![image-20210722223108532](photo\image-20210722223108532.png)
 
 ## 예외(Exception)
 

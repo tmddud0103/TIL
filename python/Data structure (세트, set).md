@@ -61,11 +61,11 @@ KeyError: 'dovmf'
 
 
 
-![image-20210726110603108](Data structure (세트, set).assets/image-20210726110603108.png)
+![image-20210726110603108](photo/image-20210726110603108.png)
 
 
 
-![image-20210726110641660](Data structure (세트, set).assets/image-20210726110641660.png)
+![image-20210726110641660](photo/image-20210726110641660.png)
 
 임의의 원소를 제거해 **반환**
 

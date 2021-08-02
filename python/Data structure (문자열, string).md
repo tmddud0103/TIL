@@ -20,11 +20,11 @@
 
 https://docs.python.org/ko/3/library/stdtypes.html#string-methods
 
-<img src="C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726090657502.png" alt="image-20210726090657502" style="zoom: 50%;" />
+<img src="photo\image-20210726090657502.png" alt="image-20210726090657502" style="zoom: 50%;" />
 
 ###  문자열 인덱스(Index)
 
-<img src="C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726090738649.png" alt="image-20210726090738649" style="zoom:50%;" />
+<img src="photo\image-20210726090738649.png" alt="image-20210726090738649" style="zoom:50%;" />
 
 
 
@@ -268,12 +268,12 @@ dir('string')
 
 
 
-![image-20210726094745484](Data structure (문자열, string).assets/image-20210726094745484.png)
+![image-20210726094745484](photo/image-20210726094745484.png)
 
 ### .is 로 시작하는 함수 특징
 
 ### True 또는  False 반환!
 
-<img src="Data structure (문자열, string).assets/image-20210726094755319.png" alt="image-20210726094755319" style="zoom: 150%;" />
+<img src="photo/image-20210726094755319.png" alt="image-20210726094755319" style="zoom: 150%;" />
 
-![image-20210726094849348](Data structure (문자열, string).assets/image-20210726094849348.png)
+![image-20210726094849348](photo/image-20210726094849348.png)

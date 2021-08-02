@@ -110,7 +110,7 @@ print(numbers)
  ['start', 1, 2, 3, 1, 2, 'end']
 ```
 
-![image-20210726100822575](Data structure (리스트, list).assets/image-20210726100822575.png)
+![image-20210726100822575](photo/image-20210726100822575.png)
 
 
 

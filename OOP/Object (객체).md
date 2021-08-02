@@ -54,10 +54,11 @@
 - attribute (속성) : 어떤 상태(데이터)를 가지는가?
 - method (조작법) : 어떤 행위(함수)를 할 수 있는가?
 
-![image-20210728111210366](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210728111210366.png)
+![image-20210728111210366](photo\image-20210728111210366.png)
 
-![image-20210728111227167](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210728111227167.png)
+![image-20210728111227167](photo\image-20210728111227167.png)
 
-![image-20210728111242413](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210728111242413.png)
+![image-20210728111242413](photo\image-20210728111242413.png)
 
-![image-20210728111259440](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210728111259440.png)
+![image-20210728111259440](photo\image-20210728111259440.png)
+

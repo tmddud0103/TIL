@@ -15,4 +15,5 @@
 
 - https://docs.python.org/3/library/
 
-![image-20210728090602520](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210728090602520.png)
+![image-20210728090602520](photo\image-20210728090602520.png)
+

@@ -1,10 +1,10 @@
 # Function return
 
-![image-20210721094120820](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210721094120820.png)
+![image-20210721094120820](photo\image-20210721094120820.png)
 
-![image-20210721094130296](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210721094130296.png)
+![image-20210721094130296](photo\image-20210721094130296.png)
 
-![image-20210721094158872](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210721094158872.png)
+![image-20210721094158872](photo\image-20210721094158872.png)
 
 
 

@@ -2,9 +2,9 @@
 
 ## Python 개발 환경
 
-![image-20210719133151683](0.Python_basic.assets/image-20210719133151683.png)
+![image-20210719133151683](photo/image-20210719133151683.png)
 
-![image-20210719133205356](0.Python_basic.assets/image-20210719133205356.png)
+![image-20210719133205356](photo/image-20210719133205356.png)
 
 ### 코드 스타일 가이드
 

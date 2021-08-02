@@ -57,7 +57,7 @@ print(a)
 
 - 리스트에 **값**을 **추가**
 
-![image-20210726100532855](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726100532855.png)
+![image-20210726100532855](photo\image-20210726100532855.png)
 
 
 
@@ -65,7 +65,7 @@ print(a)
 
 - *itreable* -> **항목을 추가**
 
-![image-20210726100636744](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726100636744.png)
+![image-20210726100636744](photo\image-20210726100636744.png)
 
 
 
@@ -73,7 +73,7 @@ print(a)
 
 - 정해진 위치 i에 x값 추가
 
-![image-20210726100822575](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726100822575.png)
+![image-20210726100822575](photo\image-20210726100822575.png)
 
 
 
@@ -84,7 +84,7 @@ print(a)
 - 리스트에서 값이 x인 것 삭제
 - x값 전체가 아닌 x인 값 **하나만** 삭제
 
-![image-20210726101033818](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726101033818.png)
+![image-20210726101033818](photo\image-20210726101033818.png)
 
 
 
@@ -93,7 +93,7 @@ print(a)
 - 정해진 위치 i에 있는 값을 삭제하고, 그 항목을 반환함
 - i 값을 지정하지 않으면, 마지막 항목을 삭제하고 반환함
 
-![image-20210726101149790](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726101149790.png)
+![image-20210726101149790](photo\image-20210726101149790.png)
 
 ```python
 x = number.pop()
@@ -108,7 +108,7 @@ return(x)
 - 모든 항목을 삭제
 - 리스트를 없애는 것이 아닌 리스트 안의 항목들을 삭제
 
-![image-20210726101300494](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210726101300494.png)
+![image-20210726101300494](photo\image-20210726101300494.png)
 
 
 
@@ -132,7 +132,7 @@ print(numbers.index(3))
 - 원하는 값의 x의 개수를 반환
 - 찾고자하는 x값이 없다면 0**을 반환**
 
-![image-20210726101606158](List (리스트).assets/image-20210726101606158.png)
+![image-20210726101606158](photo/image-20210726101606158.png)
 
 
 
@@ -152,7 +152,7 @@ sorted(x)
 
 원본 변경 X, 함수 안의 새로운 값이 정렬
 
-![image-20210726101728666](List (리스트).assets/image-20210726101728666.png)
+![image-20210726101728666](photo/image-20210726101728666.png)
 
 
 
@@ -165,13 +165,13 @@ sorted(x)
 
 ### 리스트 복사
 
-![image-20210726102135968](List (리스트).assets/image-20210726102135968.png)
+![image-20210726102135968](photo/image-20210726102135968.png)
 
 
 
 
 
-![image-20210726102200689](List (리스트).assets/image-20210726102200689.png)
+![image-20210726102200689](photo/image-20210726102200689.png)
 
 
 
@@ -183,19 +183,19 @@ sorted(x)
 
 얕은 복사란? -> 1차원에서의 복사
 
-![image-20210726102242912](List (리스트).assets/image-20210726102242912.png)
+![image-20210726102242912](photo/image-20210726102242912.png)
 
-![image-20210726102304514](List (리스트).assets/image-20210726102304514.png)
+![image-20210726102304514](photo/image-20210726102304514.png)
 
 
 
 #### 참고사항
 
-![image-20210726102343944](List (리스트).assets/image-20210726102343944.png)
+![image-20210726102343944](photo/image-20210726102343944.png)
 
 
 
 ### 깊은 복사 (deep copy)
 
-![image-20210726102524905](List (리스트).assets/image-20210726102524905.png)
+![image-20210726102524905](photo/image-20210726102524905.png)
 

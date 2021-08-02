@@ -4,7 +4,7 @@
 
 - 문자열은 ascii 코드에 따름
 
-  <img src="4.Container(컨테이너).assets/image-20210719142040147.png" alt="image-20210719142040147" style="zoom: 67%;" />
+  <img src="photo/image-20210719142040147.png" alt="image-20210719142040147" style="zoom: 67%;" />
 
 ```python
 print(min(numbers))
@@ -60,4 +60,4 @@ print(min_value)
 
 - ord함수 활용하여 확인 가능
 
-<img src="min, max.assets/image-20210719142027501.png" alt="image-20210719142027501" style="zoom: 67%;" />
+<img src="photo/image-20210719142027501.png" alt="image-20210719142027501" style="zoom: 67%;" />

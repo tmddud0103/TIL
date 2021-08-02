@@ -8,7 +8,7 @@
 
 ### in/ not in
 
-![image-20210719141046252](C:\Users\tmddu\TIL\python\4.Container(컨테이너).assets\image-20210719141046252.png)
+![image-20210719141046252](photo\image-20210719141046252.png)
 
 ### Concatenation(결합, +)
 
@@ -16,7 +16,7 @@
 
   - range은 TypeError 발생
 
-<img src="C:\Users\tmddu\TIL\python\4.Container(컨테이너).assets\image-20210719141147357.png" alt="image-20210719141147357" style="zoom:67%;" />
+<img src="photo\image-20210719141147357.png" alt="image-20210719141147357" style="zoom:67%;" />
 
 
 
@@ -25,7 +25,7 @@
 - 시퀀스를 반복시킴
   - range는 TypeError
 
-<img src="C:\Users\tmddu\TIL\python\4.Container(컨테이너).assets\image-20210719141257462.png" alt="image-20210719141257462" style="zoom:67%;" />
+<img src="photo\image-20210719141257462.png" alt="image-20210719141257462" style="zoom:67%;" />
 
 
 
@@ -34,7 +34,7 @@
 - 시퀀스의 특정 인덱스 값에 접근
   - 해당 인덱스가 없는경우 IndexError
 
-![image-20210719141356859](C:\Users\tmddu\TIL\python\4.Container(컨테이너).assets\image-20210719141356859.png)
+![image-20210719141356859](photo\image-20210719141356859.png)
 
 
 
@@ -42,6 +42,6 @@
 
 ### 실습 문제
 
-![image-20210719142312969](C:\Users\tmddu\TIL\python\4.Container(컨테이너).assets\image-20210719142312969.png)
+![image-20210719142312969](photo\image-20210719142312969.png)
 
-<img src="C:\Users\tmddu\TIL\python\4.Container(컨테이너).assets\image-20210719142335121.png" alt="image-20210719142335121" style="zoom:67%;" />
+<img src="photo\image-20210719142335121.png" alt="image-20210719142335121" style="zoom:67%;" />

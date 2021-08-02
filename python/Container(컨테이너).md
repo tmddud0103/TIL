@@ -28,11 +28,11 @@
 - 인덱스는 0부터 접근
   - list[]
 
-<img src="4.Container(컨테이너).assets/image-20210719111841477.png" alt="image-20210719111841477" style="zoom:67%;" />
+<img src="photo/image-20210719111841477.png" alt="image-20210719111841477" style="zoom:67%;" />
 
 #### 중첩 리스트 실습
 
-<img src="4.Container(컨테이너).assets/image-20210719111922932.png" alt="image-20210719111922932" style="zoom:67%;" />
+<img src="photo/image-20210719111922932.png" alt="image-20210719111922932" style="zoom:67%;" />
 
 
 
@@ -42,13 +42,13 @@
   - 소괄호() 혹은 tuple을 통해 생성
   - 값에 대한 접근은 tuple_name[i]
 
-![image-20210719112131544](4.Container(컨테이너).assets/image-20210719112131544.png)
+![image-20210719112131544](photo/image-20210719112131544.png)
 
 
 
 - 튜플은 일반적으로 **파이썬 내부에서 활용**됨, 복수의 값을 반환하는 경우에도 활용
 
-![image-20210719112514778](4.Container(컨테이너).assets/image-20210719112514778.png)
+![image-20210719112514778](photo/image-20210719112514778.png)
 
 
 
@@ -75,13 +75,13 @@ print(type(b))
 - 범위, 스텝 지정 : range(n, m, s)
   - n부터 m-1까지 s만큼 증가시키는 숫자의 시퀀스
 
-![image-20210719112914043](4.Container(컨테이너).assets/image-20210719112914043.png)
+![image-20210719112914043](photo/image-20210719112914043.png)
 
-<img src="4.Container(컨테이너).assets/image-20210719112935823.png" alt="image-20210719112935823" style="zoom:67%;" />
+<img src="photo/image-20210719112935823.png" alt="image-20210719112935823" style="zoom:67%;" />
 
 
 
-<img src="4.Container(컨테이너).assets/image-20210719113008950.png" alt="image-20210719113008950" style="zoom:67%;" />
+<img src="photo/image-20210719113008950.png" alt="image-20210719113008950" style="zoom:67%;" />
 
 ​						역순도 가능
 
@@ -117,7 +117,7 @@ for i in range(2):
       - **비어있는 중괄호는 딕셔너리**로 만들어진다!
   - 순서가 없어 별도의 값에 접근할 수 없음
 
-![image-20210719142739468](4.Container(컨테이너).assets/image-20210719142739468.png)
+![image-20210719142739468](photo/image-20210719142739468.png)
 
 
 
@@ -125,7 +125,7 @@ for i in range(2):
   - 집합 연산이 가능
   - 중복된 값이 존재하지 않음
 
-<img src="4.Container(컨테이너).assets/image-20210719142934395.png" alt="image-20210719142934395" style="zoom: 67%;" />
+<img src="photo/image-20210719142934395.png" alt="image-20210719142934395" style="zoom: 67%;" />
 
 
 
@@ -134,7 +134,7 @@ for i in range(2):
 - 다른 컨테이너에서 중복된 값을 쉽게 제거할 수 있음
   - 단 순서도 같이 무시 -> 순서가 중요한 경우 사용 X
 
-<img src="4.Container(컨테이너).assets/image-20210719143236672.png" alt="image-20210719143236672" style="zoom:67%;" />
+<img src="photo/image-20210719143236672.png" alt="image-20210719143236672" style="zoom:67%;" />
 
 
 
@@ -143,27 +143,27 @@ for i in range(2):
 - **key**와 **value**가 쌍으로 이루어진 자료구조
   - 중괄호({}) 혹은 dict()을 통해 생성
 
-<img src="4.Container(컨테이너).assets/image-20210719143457749.png" alt="image-20210719143457749" style="zoom:67%;" />
+<img src="photo/image-20210719143457749.png" alt="image-20210719143457749" style="zoom:67%;" />
 
 - **key를 통해 value에 접근**
   - value 값에 바로 접근 불가
 
-<img src="4.Container(컨테이너).assets/image-20210719143513592.png" alt="image-20210719143513592" style="zoom:67%;" />
+<img src="photo/image-20210719143513592.png" alt="image-20210719143513592" style="zoom:67%;" />
 
 - key는 변경 불가능한 데이터(immutable)만 활용가능
   - string, integer, float, boolean, tuple, range
   - **string으로 작성하는 것을 원칙!**
   - 띄어쓰기도 하지 않는것이 원칙
 
-<img src="4.Container(컨테이너).assets/image-20210719143644971.png" alt="image-20210719143644971" style="zoom:67%;" />
+<img src="photo/image-20210719143644971.png" alt="image-20210719143644971" style="zoom:67%;" />
 
 - value는 모든 값으로 설정 가능 (리스트, 딕셔너리 등)
 
-<img src="4.Container(컨테이너).assets/image-20210719143702546.png" alt="image-20210719143702546" style="zoom:80%;" />
+<img src="photo/image-20210719143702546.png" alt="image-20210719143702546" style="zoom:80%;" />
 
 #### 딕셔너리 실습
 
-![image-20210719143759400](4.Container(컨테이너).assets/image-20210719143759400.png)
+![image-20210719143759400](photo/image-20210719143759400.png)
 
 드라마를 출력하는 코드..?
 
@@ -184,7 +184,7 @@ movie['genres'][0]
 
 ### 컨테이너 형변환 (중요)
 
-![image-20210719143938092](4.Container(컨테이너).assets/image-20210719143938092.png)
+![image-20210719143938092](photo/image-20210719143938092.png)
 
 
 
@@ -208,8 +208,8 @@ movie['genres'][0]
   - num2 = num1을 하는 경우 동일한 리스트(객체)의 주소를 참조
   - if num2[0] = 100으로 변경한다면 num1[0] 역시 100으로 변경이 된다!
 
-![image-20210719144610049](4.Container(컨테이너).assets/image-20210719144610049.png)
+![image-20210719144610049](photo/image-20210719144610049.png)
 
 
 
-![image-20210719144758809](4.Container(컨테이너).assets/image-20210719144758809.png)
+![image-20210719144758809](photo/image-20210719144758809.png)

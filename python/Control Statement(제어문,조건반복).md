@@ -24,7 +24,7 @@ else:
 	# code block
 ```
 
-<img src="5.Control Statement(제어문).assets/image-20210719150529837.png" alt="image-20210719150529837" style="zoom:67%;" />
+<img src="photo/image-20210719150529837.png" alt="image-20210719150529837" style="zoom:67%;" />
 
 4 space != 1 tab
 
@@ -34,7 +34,7 @@ but 1 tab을 4 space로 설정해서 편의성 높임
 
 ### 실습 문제
 
-![image-20210719150849799](5.Control Statement(제어문).assets/image-20210719150849799.png)
+![image-20210719150849799](photo/image-20210719150849799.png)
 
 ```bash
 #input으로 받는 모든 것들은 문자열 타입 -> int를 통해 숫자로 변환
@@ -50,9 +50,9 @@ else:
 
 ### 복수 조건문
 
-![image-20210719151207664](5.Control Statement(제어문).assets/image-20210719151207664.png)
+![image-20210719151207664](photo/image-20210719151207664.png)
 
-![image-20210719151251494](5.Control Statement(제어문).assets/image-20210719151251494.png)
+![image-20210719151251494](photo/image-20210719151251494.png)
 
 ### 없다 -> 조건식을 동시에 검사하는 것이 아니라 순차적으로 비교하기 때문!
 
@@ -63,9 +63,9 @@ else:
 - 조건문은 다른 조건문에 중첩되어 사용될 수 있음
 - 들여쓰기 유의할 것
 
-<img src="5.Control Statement(제어문).assets/image-20210719151421347.png" alt="image-20210719151421347" style="zoom:67%;" />
+<img src="photo/image-20210719151421347.png" alt="image-20210719151421347" style="zoom:67%;" />
 
-![image-20210719151453575](5.Control Statement(제어문).assets/image-20210719151453575.png)
+![image-20210719151453575](photo/image-20210719151453575.png)
 
 
 
@@ -74,23 +74,23 @@ else:
 - 조건 표현식을 일반적으로 조건에 따라 값을 정할 때 사용
 - 삼항 연산자(Ternary operator)로 부르기도 함
 
-![image-20210719151630422](5.Control Statement(제어문).assets/image-20210719151630422.png)
+![image-20210719151630422](photo/image-20210719151630422.png)
 
 True인 경우 -> 왼쪽의 값이 나옴
 
 False인 경우 -> 오른쪽의 값이 나옴
 
-<img src="5.Control Statement(제어문).assets/image-20210719151712434.png" alt="image-20210719151712434" style="zoom:80%;" />
+<img src="photo/image-20210719151712434.png" alt="image-20210719151712434" style="zoom:80%;" />
 
 #### -> 절대값을 저장하기 위한 코드
 
-<img src="5.Control Statement(제어문).assets/image-20210719151752154.png" alt="image-20210719151752154" style="zoom: 67%;" />
+<img src="photo/image-20210719151752154.png" alt="image-20210719151752154" style="zoom: 67%;" />
 
 - 주의: value를 한번만 지정!
 
 
 
-![image-20210719151842489](5.Control Statement(제어문).assets/image-20210719151842489.png)
+![image-20210719151842489](photo/image-20210719151842489.png)
 
 
 
@@ -117,7 +117,7 @@ while <expression>
 	#code block
 ```
 
-<img src="5.Control Statement(제어문).assets/image-20210719152750746.png" alt="image-20210719152750746" style="zoom: 50%;" />
+<img src="photo/image-20210719152750746.png" alt="image-20210719152750746" style="zoom: 50%;" />
 
 
 
@@ -133,19 +133,19 @@ for <변수명> in <iterable>:
 	#code block
 ```
 
-<img src="5.Control Statement(제어문).assets/image-20210719153310138.png" alt="image-20210719153310138" style="zoom: 67%;" />
+<img src="photo/image-20210719153310138.png" alt="image-20210719153310138" style="zoom: 67%;" />
 
-<img src="5.Control Statement(제어문).assets/image-20210719153349992.png" alt="image-20210719153349992" style="zoom:67%;" />
+<img src="photo/image-20210719153349992.png" alt="image-20210719153349992" style="zoom:67%;" />
 
 #### 						-> 단수,복수 처리 확실하게 해야한다!
 
 #### 						-> 시퀀스는 복수형으로 쓰는걸 추천
 
-<img src="5.Control Statement(제어문).assets/image-20210719153415048.png" alt="image-20210719153415048" style="zoom:67%;" />
+<img src="photo/image-20210719153415048.png" alt="image-20210719153415048" style="zoom:67%;" />
 
 ### 리스트 순회
 
-![image-20210719154443252](5.Control Statement(제어문).assets/image-20210719154443252.png)
+![image-20210719154443252](photo/image-20210719154443252.png)
 
 
 
@@ -153,12 +153,11 @@ for <변수명> in <iterable>:
 
 - 반복작업을 하지만, index도 필요한 경우!
 
-![image-20210719154458675](5.Control Statement(제어문).assets/image-20210719154458675.png)
+![image-20210719154458675](photo/image-20210719154458675.png)
 
-![image-20210719154513328](5.Control Statement(제어문).assets/image-20210719154513328.png)
+![image-20210719154513328](photo/image-20210719154513328.png)
 
-![image-20210719154541047](5.Control Statement(제어문).assets/image-20210719154541047.png)
+![image-20210719154541047](photo/image-20210719154541047.png)
 
-![image-20210719170902159](5.Control Statement(제어문).assets/image-20210719170902159.png)
-
+![image-20210719170902159](photo/image-20210719170902159.png)
 

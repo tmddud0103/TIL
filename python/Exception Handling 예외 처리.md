@@ -133,7 +133,7 @@ except 예외 as err:
 raise <에러>('메시지')
 ```
 
-![image-20210722223533342](C:\Users\tmddu\AppData\Roaming\Typora\typora-user-images\image-20210722223533342.png)
+![image-20210722223533342](photo\image-20210722223533342.png)
 
 
 
