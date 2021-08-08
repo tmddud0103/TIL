@@ -3,7 +3,7 @@
 > 여러개의 값을 저장할 수 있는 것 (객체)
 
 - 시퀀스형(sequence): 순서가 있는(ordered, 인덱스가 있는) 데이터
-  - 순서가 있다 != 정렬되어있다
+  - 순서가 있다 != 정렬되어있다(sorted)
   - 리스트(list), 튜플(tuple), 레인지(range), 문자형(string), 바이너리(binary)
 
 - 비시퀀스형(non-sequence): 순서가 없는(unordered) 데이터
