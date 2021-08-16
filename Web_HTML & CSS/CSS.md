@@ -18,7 +18,7 @@
 
 1. 인라인
 2. 내부참조(embedding) -<style>
-3. 외부참조(link file) - 분리괸 CSS파일
+3. 외부참조(link file) - 분리된 CSS파일
 
 ![image-20210802111339430](photo/image-20210802111339430.png)
 
