@@ -16,8 +16,8 @@ git 서버에 접속하기 전에 두 설정 값을 지정해야한다.
 
 ```bash
 #이름, 이메일 설정
-git config -- global user.name 'tmddud(예시)'
-git config -- global user.email 'tmddud123456@naver.com(예시)'
+git config --global user.name 'tmddud(예시)'
+git config --global user.email 'tmddud123456@naver.com(예시)'
 ```
 
 
