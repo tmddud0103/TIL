@@ -41,7 +41,7 @@ source venv/Scripts/activate
 ### Django 설치
 
 ```bash
-$ pip install django
+pip install django
 ```
 
 
@@ -69,7 +69,7 @@ pip freeze > requirements.txt
 > 폴더를 생성하면서 프로젝트를 시작하는 코드
 
 ```bash
-$ django-admin startproject <project name>
+$ django-admin startproject <project name> .
 ```
 
 **프로젝트 구조**
@@ -149,4 +149,20 @@ $ python manage.py startapp <app name>
   TIME_ZONE = 'Asia/Seoul'
   ```
   
+
+
+
+
+
+
+
+
+
+### 이미지 처리를 위한 라이브러리 추가
+
+![image-20210909093523123](photo/image-20210909093523123.png)
+
+이미지 처리를 위한 라이브러리 추가
+
+Add `'imagekit'` to your `INSTALLED_APPS` list in your project's settings.py
 
