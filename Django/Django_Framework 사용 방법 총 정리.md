@@ -49,10 +49,12 @@ pip install django
 ### requirement.txt 설치 및 생성
 
 ```bash
+# 설치
 pip install -r requirements.txt
 ```
 
 ```bash
+# 저장
 pip freeze > requirements.txt
 ```
 
@@ -158,11 +160,11 @@ $ python manage.py startapp <app name>
 
 
 
-### 이미지 처리를 위한 라이브러리 추가
+### 이미지 처리를 위한 라이브러리 추가
 
 ![image-20210909093523123](photo/image-20210909093523123.png)
 
-이미지 처리를 위한 라이브러리 추가
+이미지 처리를 위한 라이브러리 추가
 
 Add `'imagekit'` to your `INSTALLED_APPS` list in your project's settings.py
 
