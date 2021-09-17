@@ -100,3 +100,62 @@ git remote add <nickname> <url>
   # branch name에는 일단 master
  ```
 
+
+
+#### oneline
+
+```bash
+git log --oneline 
+# 현재의 branch에서 볼 수 있는 모든 커미션의 상황을 보여준다
+
+git log --oneline --graph
+# 그래프의 형태로 볼 수 있다!
+```
+
+#### 예시
+
+![image-20210917112258054](photo/image-20210917112258054.png)
+
+
+
+## New branch
+
+```bash
+git switch -c <branch name>
+# -c => create
+# 이미 만들었다면 그냥 switch만 하면 된다
+
+# 작성 후 커밋을 해야 한다
+git add . 
+git commit -m "commit message"
+
+git push origin <branch name>
+
+```
+
+
+
+#### 삭제
+
+```bash
+git branch -d <branch name>
+```
+
+
+
+![image-20210917112736548](photo/image-20210917112736548.png)
+
+
+
+
+
+### Create merge request
+
+#### = 병합 요청
+
+깃허브 (또는 깃랩)에서 merge request를 해야만 한다!
+
+![image-20210917113558808](photo/image-20210917113558808.png)
+
+요런 형식
+

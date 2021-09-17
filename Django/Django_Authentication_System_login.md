@@ -51,7 +51,7 @@ def login(request):
 
 # Logout
 
-### 로그아웃은 Session을 Delete하는 로직과 같음
+### 로그아웃은 Session을 Delete하는 로직과 같음
 
 ![image-20210915104424211](photo/image-20210915104424211.png)
 
@@ -62,29 +62,3 @@ def login(request):
 
 
 
-
-## 로그인 사용자 접근 제한
-
-
-
-<img src="photo/image-20210915110938356.png" alt="image-20210915110938356" style="zoom:150%;" />
-
-![image-20210915110951091](photo/image-20210915110951091.png)
-
-![image-20210915111001711](photo/image-20210915111001711.png)
-
-![image-20210915111013470](photo/image-20210915111013470.png)
-
-![image-20210915111022563](photo/image-20210915111022563.png)
-
-![image-20210915111032753](photo/image-20210915111032753.png)
-
-
-
-
-
-![image-20210915111046241](photo/image-20210915111046241.png)
-
-![image-20210915111055358](photo/image-20210915111055358.png)
-
-![image-20210915111107961](photo/image-20210915111107961.png)
