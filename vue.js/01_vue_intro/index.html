@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id='app'>
+    <p>{{message}}</p>
+    <p v-for="movie in movies">{{movie.toUpperCase()}}</p>
+    <p>{{userInfo}}</p>
+    <button v-on:click='hello' >click</button>
+
+    <i @click="changeHeart" class='fa-heart' :class="[heartClass]" v-bind:style='{ color: heartColor }'></i>
+    <a :href="naverURL">네이버</a>
+
+    <input v-model='userInput' type="text">
+    <input v-model='userCheck' type="checkbox">
+
+    <p>{{ number | multiply }}</p>
+  </div>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://kit.fontawesome.com/e87731a046.js" crossorigin="anonymous"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        message: 'hello',
+        movies : ['ironman', 'superman'],
+        userInfo: {
+          title: 'todo',
+          completed: true,
+        },
+        heartColor: 'red',
+        heartClass: 'fas',
+        naverURL: 'https://www.naver.com/',
+        userInput: '',
+        userCheck: '',
+        number: 10, 
+      },
+      methods: {
+        hello () {
+          axios.get('https://jsonplaceholder.typicode.com/todos/1')
+            .then( (res) => {
+              console.log(res.data)
+              this.userInfo.title = res.data.title
+              this.todoInfo.completed = res.data.completed
+            })
+        },
+        changeHeart: function () {
+          if (this.heartClass === 'far') {
+            this.heartClass = 'fas'
+          } else {
+            this.heartClass = 'far'
+          }
+
+          if (this.heartColor === 'red') {
+            this.heartColor  = 'black'
+          } else {
+            this.heartColor = 'red'
+          }
+        }
+      },
+      filters: {
+        multiply: function (number) {
+          return number * 10
+        }
+      }
+    })
+
+  </script>
+</body>
+</html>
