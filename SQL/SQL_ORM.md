@@ -513,3 +513,20 @@
    SUM(balance)
    14425040 
       ```
+
+
+
+
+
+
+
+```sql
+DISTINCT
+SELECT COUNT(DISTINCT name) FROM ANIMAL_INS ORDER BY COUNT(NAME) IS NOT NULL
+```
+
+조회하려는 칼럼의 중복되는 값은 제거 후 보여준다.
+
+DISTINCT 키워드 뒤에 2개 이상의 칼럼을 정의하면 
+
+하나의 RECORD로 인식하여 DISTINCT 키워드 이후에 오는 칼럼에 대해 모두 중복 제거한다.
