@@ -530,3 +530,51 @@ SELECT COUNT(DISTINCT name) FROM ANIMAL_INS ORDER BY COUNT(NAME) IS NOT NULL
 DISTINCT 키워드 뒤에 2개 이상의 칼럼을 정의하면 
 
 하나의 RECORD로 인식하여 DISTINCT 키워드 이후에 오는 칼럼에 대해 모두 중복 제거한다.
+
+
+
+
+
+동물 보호소에 들어온 동물 이름 중 두 번 이상 쓰인 이름과 해당 이름이 쓰인 횟수를 조회하는 SQL문을 작성해주세요. 이때 결과는 이름이 없는 동물은 집계에서 제외하며, 결과는 이름 순으로 조회해주세요.
+
+```sql
+SELECT name, COUNT(name) AS count 
+FROM animal_ins 
+GROUP BY name
+HAVING COUNT(*)>1
+ORDER BY name
+```
+
+
+
+보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다. 09:00부터 19:59까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요. 이때 결과는 시간대 순으로 정렬해야 합니다.
+
+```sql
+SELECT HOUR(DATETIME) as HOUR, COUNT(DATETIME) as COUNT 
+FROM ANIMAL_OUTS 
+GROUP BY HOUR(DATETIME)
+HAVING HOUR > 8 AND HOUR < 20
+ORDER BY HOUR(DATETIME)
+```
+
+
+
+
+
+
+
+보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다. 0시부터 23시까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요. 이때 결과는 시간대 순으로 정렬해야 합니다.
+
+```sql
+with recursive time as (
+    select 0 as h
+    union all 
+    select h+1 from time where h < 23
+)
+SELECT h as HOUR, COUNT(datetime) as COUNT
+FROM time
+    left join animal_outs on h = HOUR(DATETIME)
+GROUP BY h
+ORDER BY h
+```
+
